@@ -6,7 +6,7 @@ pkg update && pkg upgrade -y
 ```
 now that all pkgs are up to date we can install QEMU utils (qemu means quick emulator)
 ```bash
-pkg install qemu-utils -y
+pkg install qemu-utils qemu-x86_64-system aria2 -y
 ```
 now we got qemu installed we need to make a virtual hard disk by typing
 ```bash
