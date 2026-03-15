@@ -22,3 +22,4 @@ qemu-system-x86_64 -m 2048 -cpu max -smp 2 -hda kali.qcow2 -cdrom kali-linux-202
 ```
 now connect to the VM with a vncviewer (server is 127.0.0.1 and port is 5901)
 anyways yapped too much so cya! have fun! :)
+(WARNING!!!!! THIS WILL BE KINDA SLOW WITHOUT KVM AND AFTER INSTALLKNG KALI ONLY RUN THE PARAMS AND CHANGE -BOOT D TO -BOOT C!!!!!!!!!!!!!!)
